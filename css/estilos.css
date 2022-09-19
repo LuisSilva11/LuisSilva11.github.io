@@ -1,0 +1,358 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  color: #dc3545;
+}
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("/img/criss-cross.png");
+    text-align: center;
+}
+
+  ul {
+    list-style-type: none;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+  .opc{
+      margin-top: 15%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .boton,
+  .boton2,
+  .boton3,
+  .boton4,
+  .boton5,
+  .boton6 {
+    margin-top: 5%;
+    background-color: #dc3545; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 15%;
+    font-size: 16px;
+}
+.botones button{
+  width: 25%;
+}
+.botones input{
+  width: 25%;
+}
+.botones{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.grados button{
+  width: 25%;
+}
+.grados select {
+  width: 25%;
+}
+.grados input{
+  width: 25%;
+}
+.grados{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.triangulo input{
+  width: 25%;
+}
+.triangulo button{
+  width: 25%;
+}
+.triangulo{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.profes select{
+  width: 25%;
+}
+.profes button{
+  width: 25%;
+}
+.profes{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.formulario{
+  margin-top: 3%;
+}
+.formulario h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formulario select{
+  width: 25%;
+  margin-left: 37%;
+}
+.formulario__label {
+  margin-left: 2%;
+  width: 70%;
+}
+.parra{
+  display: flex;
+  justify-content: center;
+}
+.formulario__grupo input{
+  width: 25%;
+  margin-left: 37%;
+}
+.formulario__grupo label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* .formulario__validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+} */
+
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+.formulario__input-error-activo {
+	display: block;
+}
+.formulario__checkbox {
+	margin-right: 10px;
+}
+.formulario__mensaje {
+	height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+.formulario__mensaje-activo {
+	display: block;
+}
+
+.formulario__mensaje p {
+	margin: 0;
+}
+.formulario__grupo-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formulario__btn:hover {
+	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+.formulario__mensaje-exito {
+	font-size: 14px;
+	color: #119200;
+  display: none;
+}
+
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+
+
+
+
+.cards{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+a:hover {
+    background-color: #bbb;
+  }
+
+
+label {
+    color: #dc3545;
+    font-size: 25px;
+}
+
+input {
+    box-shadow: 0px 3px 0px #dc3545;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.modal{
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow: auto;
+  padding-top: 200px;
+  display: none;
+}
+
+.contenidoModal{
+  background-color: #FFFFFF;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  padding: 1rem;
+  animation-name: animarmodal;
+  animation-duration: 0.5s;
+}
+
+@keyframes animarmodal {
+  from {top: -300px; opacity: 0;}
+  to{top: 0; opacity: 1;}
+}
+.cerrarModal, 
+.cerrarModal2,
+.cerrarModal3,
+.cerrarModal4,
+.cerrarModal5,
+.cerrarModal6,
+.cerrarModal7,
+.cerrarModal8{
+  font-size: 2rem;
+  float: right; 
+  cursor: pointer; 
+
+}
+.contenidoModal{
+  background-color: #343a40;
+  color: #fff;
+}
+.contenidoModal h2{
+  background-color: #dc3545;
+  color: #FFFFFF;
+  padding: 1rem 0;
+  text-align: center;
+  clear: both;
+}
+.paescri input{
+  width: 45%;
+}
+.paescri{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media(max-width:450px){
+  .opc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .bt1{
+    margin-left: 50%;
+  }
+.boton1{
+  width: 200%;
+}
+.botones{
+  margin-left: -75%;
+  width: 250%;
+}
+.grados{
+  margin-left: -75%;
+  width: 250%;
+  text-align: center;
+}
+.triangulo h1{
+  width: 35%;
+  text-align: center;
+}
+.triangulo{
+  margin-left: -75%;
+  width: 250%;
+}
+.profes h1{
+  width: 35%;
+  text-align: center;
+}
+.profes{
+  margin-left: -75%;
+  width: 250%;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.modal input{
+  width: 90%;
+}
+.formulario h1{
+  margin-left: 30%;
+  width: 40%;
+  text-align: center;
+}
+
+.formulario{
+  margin-left: -75%;
+  width: 250%;
+}
+.formulario button{
+
+}
+}
